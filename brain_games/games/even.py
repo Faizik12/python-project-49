@@ -14,7 +14,3 @@ def game():
     question = random.randint(0, 100)
     answer = 'yes' if is_even(question) else 'no'
     return question, answer
-
-
-def run_game():
-    game_progress(TEST, game)

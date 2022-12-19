@@ -5,13 +5,13 @@ import prompt
 ATTEMPTS = 3
 
 
-def game_progress(test, game):
+def game_progress(game_module):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(test)
+    print(game_module.TEST)
     for i in range(ATTEMPTS):
-        question, current_answer = game()
+        question, current_answer = game_module.game()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == current_answer:
