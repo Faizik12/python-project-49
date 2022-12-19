@@ -4,6 +4,7 @@ import random
 
 MANUAL = 'Find the greatest common divisor of given numbers.'
 
+
 def what_answer(first_num, second_num):
     min_num = min(first_num, second_num)
     for i in range(min_num, 0, -1):

@@ -17,8 +17,8 @@ def game_progress(game_module):
         if answer == current_answer:
             print('Correct!')
             continue
-        print(f"'{answer}' is wrong answer ;(. Correct answer was '{current_answer}'.")
+        print(f"'{answer}' is wrong answer ;(. "
+              f"Correct answer was '{current_answer}'.")
         print(f"Let's try again, {name}")
         return
     print(f'Congratulations, {name}!')
-    

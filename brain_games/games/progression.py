@@ -9,9 +9,11 @@ def create_progression():
     len_of_progression = random.randint(5, 10)
     start_of_progression = random.randint(0, 100)
     step_of_progression = random.randint(1, 10)
-    end_of_progression = start_of_progression + step_of_progression * 10
+    end_of_progression = start_of_progression + \
+        step_of_progression * len_of_progression
     progression = []
-    for num in range(start_of_progression, end_of_progression, step_of_progression):
+    for num in range(start_of_progression,
+                     end_of_progression, step_of_progression):
         progression.append(num)
     return progression
 

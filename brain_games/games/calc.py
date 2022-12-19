@@ -5,6 +5,7 @@ import random
 MANUAL = 'What is the result of the expression?'
 OPERATORS = ['+', '-', '*']
 
+
 def what_answer(operations):
     return eval(operations)
 
