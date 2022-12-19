@@ -11,6 +11,7 @@ After installing the package, type in the command line (bash Linux):
 - "brain-calc" for the game "Calculator", in which you will be offered a random mathematical expression to solve
 - "brain-gcd" for the Greatest Common Divisor game, in which you will need to determine the greatest common divisor of a pair of numbers
 - "brain-progression" for the game "Arithmetic progression", in which you will be asked to determine the missing member of the arithmetic progression
+- "brain-prime" for the game "Prime number", in which you will need to determine whether the proposed number is prime or not
 
 ## Instalation
 
@@ -32,6 +33,10 @@ brain-gcd
 
 [![asciicast](https://asciinema.org/a/jB45EBF6oB6GWRSDq6wvGzAGS.svg)](https://asciinema.org/a/jB45EBF6oB6GWRSDq6wvGzAGS)
 
-Brain-progression
+brain-progression
 
 [![asciicast](https://asciinema.org/a/E1aIqyxPLGwZhtEogbqIsHMv5.svg)](https://asciinema.org/a/E1aIqyxPLGwZhtEogbqIsHMv5)
+
+brain-prime
+
+[![asciicast](https://asciinema.org/a/fpDYLCyEnpTumZq3ElxG1TkNo.svg)](https://asciinema.org/a/fpDYLCyEnpTumZq3ElxG1TkNo)
