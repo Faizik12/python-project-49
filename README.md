@@ -4,6 +4,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/c3ee10cf6b2468e4aec0/maintainability)](https://codeclimate.com/github/Faizik12/python-project-49/maintainability)
 
 ## Description
+
 The Brain-games consists of a greeting and five mini-games. 
 After installing the package, type in the command line (bash):
 - "brain-games" to access the greeting, where you just enter your name
