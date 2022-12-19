@@ -10,6 +10,7 @@ After installing the package, type in the command line (bash Linux):
 - "brain-even" for the game "Even Check", in which you will be offered a random number to determine whether it is even or not
 - "brain-calc" for the game "Calculator", in which you will be offered a random mathematical expression to solve
 - "brain-gcd" for the Greatest Common Divisor game, in which you will need to determine the greatest common divisor of a pair of numbers
+- "brain-progression" for the game "Arithmetic progression", in which you will be asked to determine the missing member of the arithmetic progression
 
 ## Instalation
 
@@ -30,3 +31,7 @@ brain-calc
 brain-gcd
 
 [![asciicast](https://asciinema.org/a/jB45EBF6oB6GWRSDq6wvGzAGS.svg)](https://asciinema.org/a/jB45EBF6oB6GWRSDq6wvGzAGS)
+
+Brain-progression
+
+[![asciicast](https://asciinema.org/a/E1aIqyxPLGwZhtEogbqIsHMv5.svg)](https://asciinema.org/a/E1aIqyxPLGwZhtEogbqIsHMv5)
