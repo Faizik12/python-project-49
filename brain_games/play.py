@@ -9,7 +9,7 @@ def game_progress(game_module):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(game_module.TEST)
+    print(game_module.MANUAL)
     for i in range(ATTEMPTS):
         question, current_answer = game_module.game()
         print(f'Question: {question}')
