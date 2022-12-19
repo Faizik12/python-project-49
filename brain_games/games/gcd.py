@@ -13,8 +13,8 @@ def what_answer(first_num, second_num):
 
 
 def game():
-    first_num = random.randint(0, 100)
-    second_num = random.randint(0, 100)
+    first_num = random.randint(1, 100)
+    second_num = random.randint(1, 100)
     question = f'{first_num} {second_num}'
     answer = str(what_answer(first_num, second_num))
     return question, answer
