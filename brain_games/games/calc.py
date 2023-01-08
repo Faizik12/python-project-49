@@ -22,5 +22,5 @@ def generate_game():
     second_num = random.randint(BEGIN_OF_RANGE, END_OF_RANGE)
     operator = random.choice(OPERATORS)
     question = f'{first_num} {operator} {second_num}'
-    answer = str(give_correct_answer(question))
+    answer = str(give_correct_answer(first_num, operator, second_num))
     return question, answer
