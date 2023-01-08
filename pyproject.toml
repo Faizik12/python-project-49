@@ -6,6 +6,15 @@ authors = ["Faizik12 <zerg9119@gmail.com>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
 repository = "https://github.com/Faizik12/python-project-49"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Students",
+    "Intended Audience :: Information Technology",
+    "Operating System :: Linux",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: Implementation :: CPython"
+]
 
 
 [tool.poetry.dependencies]
