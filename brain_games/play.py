@@ -1,7 +1,7 @@
 import prompt
 
 
-ATTEMPTS = 3
+ATTEMPT_COUNT = 3
 
 
 def launch_game(game_module):
@@ -9,7 +9,7 @@ def launch_game(game_module):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game_module.MANUAL)
-    for i in range(ATTEMPTS):
+    for i in range(ATTEMPT_COUNT):
         question, current_answer = game_module.generate_game()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
