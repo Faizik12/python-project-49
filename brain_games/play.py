@@ -15,9 +15,8 @@ def launch_game(game_module):
         answer = prompt.string('Your answer: ')
         if answer != current_answer:
             print(f'\'{answer}\' is wrong answer ;(. '
-              f'Correct answer was \'{current_answer}\'.')
+                  f'Correct answer was \'{current_answer}\'.')
             print(f'Let\'s try again, {name}!')
             return
         print('Correct!')
-        continue
     print(f'Congratulations, {name}!')
