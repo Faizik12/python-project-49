@@ -13,11 +13,11 @@ def launch_game(game_module):
         question, current_answer = game_module.generate_game()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
-        if answer == current_answer:
-            print('Correct!')
-            continue
-        print(f'\'{answer}\' is wrong answer ;(. '
+        if answer != current_answer:
+            print(f'\'{answer}\' is wrong answer ;(. '
               f'Correct answer was \'{current_answer}\'.')
-        print(f'Let\'s try again, {name}!')
-        return
+            print(f'Let\'s try again, {name}!')
+            return
+        print('Correct!')
+        continue
     print(f'Congratulations, {name}!')

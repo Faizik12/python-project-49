@@ -5,7 +5,6 @@ MANUAL = 'What is the result of the expression?'
 BEGIN_OF_RANGE = 0
 END_OF_RANGE = 100
 OPERATORS = ['+', '-', '*']
-DELIMITER = ' '
 
 
 def get_correct_answer(first_number, operator, second_number):
